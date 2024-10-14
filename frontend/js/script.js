@@ -21,7 +21,7 @@ const colors = [
     "darkkhaki",
     "hotpink",
     "gold"
-]
+];
 
 const userColor = () => {
     i = Math.floor(Math.random()*colors.length);
