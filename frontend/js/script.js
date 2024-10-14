@@ -82,7 +82,7 @@ const handleLogin = (event) => {
     loginTela.style.display = "none";
     chatTela.style.display = "flex";
     
-    ws = new WebSocket('ws://localhost:8080');
+    ws = new WebSocket('wss://whatsapp-7ym5.onrender.com');
     ws.onmessage = processMessage
     
 }
